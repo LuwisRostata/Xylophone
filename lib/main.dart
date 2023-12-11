@@ -58,7 +58,8 @@ class _XylophoneAppState extends State<XylophoneApp> {
                       onPressed: (){
                         playSound(Random().nextInt(7));
                         setState(() {
-                          RandomC=Colors.primaries[Random().nextInt(Colors.primaries.length)];
+                          RandomC
+                          =Colors.primaries[Random().nextInt(Colors.primaries.length)];
                         });
                       },
                         child: const Align(
